@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Button Flat Color -->
+    <item name="button_flat_highlight" type="color">@color/ripple_material_light</item>
+
+</resources>

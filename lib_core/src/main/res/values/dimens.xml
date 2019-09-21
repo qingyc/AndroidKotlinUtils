@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Toolbar-->
+    <dimen name="toolbarHeightStd">56dp</dimen>
+    <dimen name="statusBarHeight">25dp</dimen>
+    <dimen name="tabLayoutHeight">48dp</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+
+    <dimen name="indexToolbarPaddingTop">0dp</dimen>
+    <dimen name="indexButtonMarginTop1">180dp</dimen>
+    <dimen name="indexButtonMarginTop">62dp</dimen>
+
+
+    <dimen name="common_margin">16dp</dimen>
+    <dimen name="common_margin_top">8dp</dimen>
+    <dimen name="common_item_height">54dp</dimen>
+
+
+    <!--Toolbar-->
+    <dimen name="toolbar_height_sma">48dp</dimen>
+    <dimen name="toolbar_height_std">56dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="toolbar_margin_left">56dp</dimen>
+
+    <!--标准UI字体大小-->
+    <dimen name="font_size_lit">8sp</dimen>
+    <dimen name="font_size_few">10sp</dimen>
+    <dimen name="font_size_tin">12sp</dimen>
+    <dimen name="font_size_min">13sp</dimen>
+    <dimen name="font_size_sma">14sp</dimen>
+    <dimen name="font_size_std">16sp</dimen>
+    <dimen name="font_size_mid">18sp</dimen>
+    <dimen name="font_size_big">20sp</dimen>
+    <dimen name="font_size_max">22sp</dimen>
+    <dimen name="font_size_lar">24sp</dimen>
+    <dimen name="font_size_raw">28sp</dimen>
+
+
+    <!--标准视图间距-->
+    <dimen name="view_margin_fxi">3dp</dimen>
+    <dimen name="view_margin_tin">4dp</dimen>
+    <dimen name="view_margin_src">5dp</dimen>
+    <dimen name="view_margin_sth">8dp</dimen>
+    <dimen name="view_margin_min">10dp</dimen>
+    <dimen name="view_margin_sma">12dp</dimen>
+    <dimen name="view_margin_std">16dp</dimen>
+    <dimen name="view_margin_med">18dp</dimen>
+    <dimen name="view_margin_mid">20dp</dimen>
+    <dimen name="view_margin_big">24dp</dimen>
+    <dimen name="view_margin_max">28dp</dimen>
+    <dimen name="view_margin_lar">32dp</dimen>
+    <dimen name="view_margin_raw">36dp</dimen>
+
+    <!--卡片-->
+    <dimen name="card_out_margin">10dp</dimen>
+    <dimen name="card_inner_margin">10dp</dimen>
+    <dimen name="card_corners_radius_sma">4dp</dimen>
+    <dimen name="card_corners_radius_mid">8dp</dimen>
+    <dimen name="card_corners_radius_std">16dp</dimen>
+    <dimen name="margin_dialog">@dimen/view_margin_lar</dimen>
+
+
+    <!-- std icon size-->
+    <dimen name="icon_size_tin">26dp</dimen>
+    <dimen name="icon_size_sth">30dp</dimen>
+    <dimen name="icon_size_min">36dp</dimen>
+    <dimen name="icon_size_sma">40dp</dimen>
+    <dimen name="icon_size_std">44dp</dimen>
+    <dimen name="icon_size_mid">48dp</dimen>
+    <dimen name="icon_size_big">56dp</dimen>
+    <dimen name="icon_size_max">72dp</dimen>
+    <dimen name="icon_size_lar">78dp</dimen>
+    <dimen name="icon_size_raw">84dp</dimen>
+
+    <!-- std divider size -->
+    <dimen name="divider_size_px">1px</dimen>
+    <dimen name="divider_size_dp">1dp</dimen>
+    <dimen name="divider_size_mid">2dp</dimen>
+    <dimen name="divider_size_big">4dp</dimen>
+    <dimen name="divider_size_max">6dp</dimen>
+
+    <!-- 标准圆角大小-->
+    <dimen name="round_radius_std">2dp</dimen>
+    <dimen name="round_radius_mid">4dp</dimen>
+    <dimen name="round_radius_big">8dp</dimen>
+    <dimen name="round_radius_max">10dp</dimen>
+    <dimen name="elevation_std">2dp</dimen>
+    <dimen name="elevation_mid">4dp</dimen>
+    <dimen name="elevation_big">6dp</dimen>
+
+    <!-- Item高度 -->
+    <dimen name="item_height_sth">36dp</dimen>
+    <dimen name="item_height_min">40dp</dimen>
+    <dimen name="item_height_mix">44dp</dimen>
+    <dimen name="item_height_sna">46dp</dimen>
+    <dimen name="item_height_sma">48dp</dimen>
+    <dimen name="item_height_std">56dp</dimen>
+    <dimen name="item_height_mid">60dp</dimen>
+    <dimen name="item_height_big">64dp</dimen>
+
+    <!-- button mRadius-->
+    <dimen name="card_radius_std">4dp</dimen>
+    <dimen name="card_radius_lar">8dp</dimen>
+
+    <dimen name="button_radius_tin">14dp</dimen>
+    <dimen name="button_radius_sth">16dp</dimen>
+    <dimen name="button_radius_min">20dp</dimen>
+    <dimen name="button_radius_sma">24dp</dimen>
+    <dimen name="button_radius_std">28dp</dimen>
+    <dimen name="button_radius_mid">31dp</dimen>
+    <dimen name="button_radius_big">35dp</dimen>
+    <dimen name="button_radius_max">38dp</dimen>
+    <dimen name="button_radius_lar">43dp</dimen>
+    <dimen name="button_radius_raw">46dp</dimen>
+
+    <!-- Menu -->
+    <dimen name="menu_popup_width_max">320dp</dimen>
+    <dimen name="menu_popup_width_min">120dp</dimen>
+
+    <!-- Dialog -->
+    <dimen name="alert_dialog_width_max">350dip</dimen>
+    <dimen name="alert_dialog_title_height">48dip</dimen>
+    <dimen name="alert_dialog_button_height">32dip</dimen>
+    <dimen name="alert_dialog_button_width">64dip</dimen>
+
+    <!-- Switch -->
+    <dimen name="switch_width_std">40dp</dimen>
+    <dimen name="switch_width_mid">30dp</dimen>
+
+    <dimen name="progress_line_size">2dp</dimen>
+    <dimen name="round_frame_size">14dp</dimen>
+    <dimen name="round_line_size">3dp</dimen>
+    <dimen name="app_use_count_height">22dp</dimen>
+    <dimen name="app_use_count_radius">11dp</dimen>
+
+    <dimen name="usage_line_size">15dp</dimen>
+    <dimen name="usage_view_outer_size">200dp</dimen>
+    <dimen name="usage_view_inner_size">160dp</dimen>
+
+    <dimen name="opening_margin_top">64dp</dimen>
+    <dimen name="opening_margin_bottom">68dp</dimen>
+
+    <dimen name="opening_times_size">36sp</dimen>
+    <dimen name="exit_times_size">36sp</dimen>
+
+    <item name="PaddingSizeTwo" type="dimen">2dp</item>
+
+
+    <!--视图间距-->
+    <dimen name="viewEdge2dp">2dp</dimen>
+    <dimen name="viewEdge4dp">4dp</dimen>
+    <dimen name="viewEdge6dp">6dp</dimen>
+    <dimen name="viewEdge8dp">8dp</dimen>
+    <dimen name="viewEdge10dp">10dp</dimen>
+    <dimen name="viewEdge12dp">12dp</dimen>
+    <dimen name="viewEdge14dp">14dp</dimen>
+    <dimen name="viewEdge16dp">16dp</dimen>
+    <dimen name="viewEdge18dp">18dp</dimen>
+    <dimen name="viewEdge20dp">20dp</dimen>
+    <dimen name="viewEdge22dp">22dp</dimen>
+    <dimen name="viewEdge24dp">24dp</dimen>
+    <dimen name="viewEdge26dp">26dp</dimen>
+    <dimen name="viewEdge28dp">28dp</dimen>
+    <dimen name="viewEdge30dp">30dp</dimen>
+    <dimen name="viewEdge32dp">32dp</dimen>
+
+
+    <!--  recyclerView : Default screen margins, per the Android Design guidelines. -->
+    <dimen name="def_height">50dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+
+
+</resources>

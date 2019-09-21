@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:color="@color/bg_black_transparent_40"
+        tools:targetApi="21">
+
+    <!-- 必须定义背景，波纹会限定在背景中 -->
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@drawable/shape_circle"/>
+
+</ripple>

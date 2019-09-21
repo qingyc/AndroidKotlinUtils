@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tip_storage_open">Storage permission is not allowed. Please allow it in Settings.</string>
+    <string name="allow">Allow</string>
+</resources>

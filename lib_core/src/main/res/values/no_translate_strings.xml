@@ -1,0 +1,31 @@
+<resources>
+    <string name="share_desc" translatable="false">%1$s</string>
+    <string name="share_app" translatable="false">%1$s</string>
+    <!--unit-->
+    <string name="unit_hour" translatable="false">h</string>
+    <string name="second" translatable="false">sec</string>
+    <string name="unit_count" translatable="false">time</string>
+    <string name="unit_counts" translatable="false">times</string>
+    <string name="unit_minute" translatable="false">min</string>
+
+
+    <!--星期-->
+    <string name="sunday" translatable="false">Sun</string>
+    <string name="monday" translatable="false">Mon</string>
+    <string name="tuesday" translatable="false">Tue</string>
+    <string name="wednesday" translatable="false">Wed</string>
+    <string name="thursday" translatable="false">Thu</string>
+    <string name="friday" translatable="false">Fri</string>
+    <string name="saturday" translatable="false">Sat</string>
+
+    <!--定位使用  暂时未用到-->
+    <string name="dialog_location_tip" translatable="false">Allow %1$s to access the location and get weather information of your area?</string>
+    <string name="dialog_has_not_allow_location_permission" translatable="false">No location access, unable to check the weather information, please allow access to your location first.</string>
+
+
+    <!--toast 暂时未用到-->
+    <string name="toast_check_open_location_service" translatable="false">Unable to detect location, please make sure your location access is enabled.</string>
+    <string name="toast_network_error" translatable="false">Network error, please check and try again</string>
+    <string name="toast_locate_fail" translatable="false">Failed to detect location</string>
+    <string name="toast_load_failed" translatable="false">Load failed, please try again</string>
+</resources>

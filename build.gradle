@@ -25,6 +25,10 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$version_kotlin"
+
+        classpath 'com.novoda:bintray-release:0.8.0'
+      //  classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
+       // classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
     }
 }
 
@@ -32,10 +36,23 @@ allprojects {
     repositories {
         google()
         jcenter()
+//        maven {
+//            url 'https://maven.aliyun.com/repository/google/'
+//        }
+//        maven {
+//            url 'https://maven.aliyun.com/repository/jcenter/'
+//        }
         mavenCentral()
         maven { url 'https://jitpack.io' }
-
     }
+
+    tasks.withType(Javadoc){
+        //不对生成的doc文档进行检查
+        options.addStringOption('Xdoclint:none', '-quiet')
+        options.addStringOption('encoding', 'UTF-8')
+    }
+
+
 }
 
 task clean(type: Delete) {

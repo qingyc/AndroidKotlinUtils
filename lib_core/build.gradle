@@ -1,7 +1,13 @@
+//放在第一行
+apply plugin: 'com.novoda.bintray-release'
+//apply plugin: 'com.jfrog.bintray'
+//apply plugin: 'com.github.dcendents.android-maven'
+
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
+//bintray
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.buildToolsVersion
@@ -27,6 +33,10 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    lintOptions {
+        abortOnError false
+    }
+
 
 }
 
@@ -86,3 +96,51 @@ dependencies {
     //权限
     api 'com.github.tbruyelle:rxpermissions:0.10.2'
 }
+
+////添加这一行，告诉gradle应用到项目中
+//apply plugin: 'maven'
+////配置模块未本地Maven仓库
+//uploadArchives{
+//    repositories.mavenDeployer{
+//        // 配置本地仓库路径，这里是项目的根目录下的maven目录中
+//        repository(url: uri('../maven'))
+//        // 唯一标识 一般为模块包名 也可其他
+//        pom.groupId = "com.qing.androidkotlinutils"
+//        // 项目名称（一般为模块名称 也可其他
+//        pom.artifactId = "androidkotlinutils"
+//        // 发布的版本号
+//        pom.version = "1.0.0"
+//    }
+//}
+
+
+publish{
+    repoName = 'aku'
+    userOrg = 'qingyc'
+    groupId = 'com.qing'
+    artifactId = 'androidkotlinutils'
+    publishVersion = '0.2.0'
+    desc = 'android kotlin utils ...test  publishVersion = \'0.2.0\''
+    website = 'https://github.com/qingyc/AndroidKotlinUtils'
+
+}
+
+//bintray {
+//    user = bintray.username
+//    key = bintray.apikey
+//    pkg {
+//        repo = bintray.pkg.repo
+//        name = bintray.pkg.name
+//        userOrg = bintray.pkg.userOrg
+//        licenses = bintray.pkg.licenses
+//        vcsUrl = bintray.pkg.vcsUrl
+//
+//        version {
+//            name = '1.0-Final'
+//            desc = 'Gradle Bintray Plugin 1.0 final'
+//            released  = new Date()
+//            vcsTag = '0.1.0'
+//            attributes = ['gradle-plugin': 'com.use.less:com.use.less.gradle:gradle-useless-plugin']
+//        }
+//    }
+//}

@@ -19,7 +19,7 @@
         <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Light</item>
         <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
         <!--返回按键-->
-        <item name="android:navigationIcon">@drawable/nav_back</item>
+
         <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
         <!--window透明-->
         <!--qtip android 26 Only fullscreen opaque activities can request com.qing.androidkotlinutils.core.ext.getOrientation -->
@@ -92,7 +92,7 @@
     </style>
     <!-- Styles -->
     <style name="OverFlow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
-        <item name="android:src">@drawable/nav_more</item>
+
     </style>
 
     <style name="MyTabTextStyle" parent="TextAppearance.Design.Tab">
